@@ -24,3 +24,5 @@ for i, elem in enumerate(json_file):
 
 with open('result.json', 'w') as outfile:
     json.dump(result_list, outfile, indent=4)
+
+csv_file.close()
